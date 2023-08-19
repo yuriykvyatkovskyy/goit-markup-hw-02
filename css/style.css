@@ -18,6 +18,8 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFF;
+    width: 1440px;
+    height: 3300px;
 }
 
 .logotype {
@@ -29,6 +31,11 @@ body {
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    display: inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+    width: 44px;
 }
 
 .logotype-studio {
@@ -40,6 +47,7 @@ body {
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    width: 71px;
 }
 
 .menu-link {
@@ -75,6 +83,9 @@ body {
 
 .title-page {
     background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    flex-shrink: 0;
 }
 
 .name-page {
@@ -85,6 +96,7 @@ body {
     line-height: 1.07;
     /* 107.143% */
     letter-spacing: 1.12px;
+    width: 496px;
 }
 
 .button-order-service {
@@ -100,6 +112,7 @@ body {
 .button-order-service:hover,
 .button-order-service:focus {
     color: var(--accent-color);
+    background-color: var(--accent-color);
 }
 
 .benefits-menu-list {
@@ -109,6 +122,7 @@ body {
     line-height: 1.2;
     /* 120% */
     letter-spacing: 0.4px;
+    width: 264px;
 }
 
 .benefits-menu-text {
@@ -117,10 +131,14 @@ body {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.32px;
+    width: 264px;
 }
 
 .employee-team {
     background-color: #F4F4FD;
+    width: 1440px;
+    height: 732px;
+    flex-shrink: 0;
 }
 
 .employee-page {
@@ -138,6 +156,12 @@ body {
     border-radius: 0px 0px 4px 4px;
     background: #FFF;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    display: inline-flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
 }
 
 .employee-img {
@@ -177,6 +201,14 @@ body {
 .directions-item {
     border: 1px solid, #E7E9FC;
     background: #FFF;
+    display: flex;
+    width: 360px;
+    height: 420px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
 }
 
 .directions-img {
