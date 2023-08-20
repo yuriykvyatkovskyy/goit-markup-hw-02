@@ -88,9 +88,7 @@ body {
 }
 
 .button-order-service {
-    border-radius: 4px;
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -136,7 +134,6 @@ body {
 }
 
 .employee-card {
-    border-radius: 0px 0px 4px 4px;
     background: #FFF;
 }
 
@@ -175,7 +172,6 @@ body {
 }
 
 .directions-item {
-    border: 1px solid, #E7E9FC;
     background: #FFF;
 }
 
